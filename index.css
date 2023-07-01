@@ -1,0 +1,14 @@
+body {
+    background-image: url("image/ultra-detailed-nebula-abstract-wallpaper-9_1562-754.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+button{
+    background-color: red;
+    box-shadow: 10px;
+  }
