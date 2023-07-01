@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
 </head>
-<h1>Space Battle</h1>
 <body>
-    <button id="startButton">Start</button>
-    <img src="image/uss_ship_360.png" alt="BlueGiant">
-    
-    <img src="image/enemy_ship_360.png" alt="enemyInvaders">
-    
-    <img src="image/enemy_ship_dead_360.png" alt="Victorious!">
-    
-    <script>
+    <h1>Space Battle</h1>
+
+    <div id="Ship">
+        <img src="image/uss_ship_360.png" alt="BlueGiant">
+        <p class="vs-text">VS</p>
+        <img src="image/enemy_ship_360.png" alt="enemyInvaders">
+      </div>
+    <button id="start">Start</button>
+    <div id="gameOverText"></div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+   <!-- <script>
    document.addEventListener("DOMContentLoaded", function() {
    var startButton = document.getElementById("startButton");
    startButton.addEventListener("click", function() {
@@ -26,5 +31,3 @@
             });
         });
     </script>
-</body>
-</html>
