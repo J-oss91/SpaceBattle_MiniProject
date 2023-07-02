@@ -8,9 +8,26 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
 }
-button{
-    background-color: red;
-    box-shadow: 10px;
+.circle-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hidden{
+    display:none;
+  }
+  
+  .circle-button:hover {
+    background-color: #0056b3;
   }
 
   #Ship {
